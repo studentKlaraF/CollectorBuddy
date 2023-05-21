@@ -1,0 +1,60 @@
+@model SeminarskaNaloga.Models.Artikel
+@using Microsoft.AspNetCore.Identity
+
+@{
+    ViewData["Title"] = "Details";
+    var userManager = Context.RequestServices.GetService(typeof(UserManager<AppUser>)) as UserManager<AppUser>;
+    var currentUser = await userManager.GetUserAsync(User);
+    var currentUserId = currentUser?.Id;
+    var isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+<div class="col-md-6 offset-md-3 text-center">
+    <h4>Artikel</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-3">
+        <dd class = "col-sm-10">
+            <div class="col-md-6">
+                <img src="@Html.DisplayFor(model => model.img)" style="max-width:200px">
+            </div>
+            
+        </dd></div>
+        <div class="col-md-9">
+        <dt>
+            Ime
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.naziv)
+        </dd>
+        <dt>
+            Vrednost
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.cena) €
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.opis)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.opis)
+        </dd>
+        <dt>
+            @if (Model.lastnik?.Id != currentUserId)
+            {
+                <a class="btn btn-success text-white" href = "mailto:kf6269@student.uni-lj.si?subject=Narocilo @Model.naziv @Model.ArtikelId&body=Naročilo : Navedite količino in svoj naslov"
+                                        style="background-color: #530961;border-color:#530961">
+                                        <i class="bi bi-cart-plus" ></i> Odkup </a>
+            }
+        </dt>
+        </div>
+    </div>
+</div>  
+<div class="col-md-6 offset-md-3 text-center">
+    @if (Model.lastnik != null && Model.lastnik.Id == currentUserId)
+    {
+        <a asp-action="Edit" asp-route-id="@Model?.ArtikelId">Edit</a>
+    }
+    <a asp-action="Index">Nazaj na seznam</a>
+</div>
+

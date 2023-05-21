@@ -1,0 +1,45 @@
+@model SeminarskaNaloga.Models.Artikel
+
+@{
+    ViewData["Title"] = "Izbriši izdelek";
+}
+<div class="col-md-8 offset-md-2">
+<h1>Izbriši izdelek</h1>
+
+<h3>Ali ste prepričani, da želite izbrisati @Html.DisplayFor(model => model.naziv)?</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.img)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.img)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.naziv)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.naziv)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.cena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.cena) €
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.opis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.opis)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ArtikelId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+</div>

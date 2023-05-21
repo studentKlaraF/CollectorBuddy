@@ -1,0 +1,34 @@
+@model IEnumerable<SeminarskaNaloga.Models.Artikel>
+@using Microsoft.AspNetCore.Identity
+
+@{
+    ViewData["Title"] = "Ostale zbirke";
+    var userManager = Context.RequestServices.GetService(typeof(UserManager<AppUser>)) as UserManager<AppUser>;
+    var currentUser = await userManager.GetUserAsync(User);
+    var currentUserId = currentUser?.Id;
+    var isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+<div class="row">
+@if (isAuthenticated)
+{
+    @foreach (var artikel in Model)
+    {
+        if (artikel.lastnik?.Id != currentUserId)
+        {
+            @await Html.PartialAsync("ArtikelSummary", artikel)
+        }
+    }
+}
+
+
+    else
+    {
+    <div class="row">
+        @foreach (Artikel artikel in Model)
+        {
+            @Html.Partial("ArtikelSummary", artikel)
+        }
+    </div>
+    }
+</div>

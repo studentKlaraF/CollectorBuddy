@@ -1,0 +1,153 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = web
+build_property.RootNamespace = web
+build_property.ProjectDir = C:\Users\fajdi\Desktop\StarfragmentsIs-master\StarfragmentsIs-master\web\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\fajdi\Desktop\StarfragmentsIs-master\StarfragmentsIs-master\web
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/ForAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxGb3JBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Artikel/Other.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWtlbFxPdGhlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Kontakt/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29udGFrdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Kosarica/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS29zYXJpY2FcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Narocilo/ZakljucekNarocila.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmFyb2NpbG9cWmFrbGp1Y2VrTmFyb2NpbGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/ArtikelSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFydGlrZWxTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/ArtikelSummaryOwned.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEFydGlrZWxTdW1tYXJ5T3duZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/Components/PovzetekKosarice/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUG92emV0ZWtLb3NhcmljZVxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/ForAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcRm9yQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Trgovina/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJnb3ZpbmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fajdi/Desktop/StarfragmentsIs-master/StarfragmentsIs-master/web/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-vpkz4e1jaw

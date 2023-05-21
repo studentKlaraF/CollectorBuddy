@@ -1,0 +1,28 @@
+@model IEnumerable<SeminarskaNaloga.Models.Artikel>
+@using Microsoft.AspNetCore.Identity
+
+@{
+    ViewData["Title"] = "Moja zbirka";
+    var userManager = Context.RequestServices.GetService(typeof(UserManager<AppUser>)) as UserManager<AppUser>;
+    var currentUser = await userManager.GetUserAsync(User);
+    var currentUserId = currentUser?.Id;
+    var isAuthenticated = User.Identity.IsAuthenticated;
+}
+
+<div class="row">
+    @if (isAuthenticated)
+    {
+        var userItems = Model.Where(artikel => artikel.lastnik != null && artikel.lastnik.Id == currentUserId);
+        foreach (var artikel in userItems)
+        {
+            if (artikel.lastnik != null && artikel.lastnik.Id == currentUserId)
+            {
+                @await Html.PartialAsync("ArtikelSummaryOwned", artikel)
+            }
+        }
+    }
+    else
+    {
+        <p>Prijavite se, da se vam prikaže vaša zbirka.</p>
+    }
+</div>
